@@ -655,7 +655,7 @@ export default function HomePage() {
                     asChild
                     className="bg-gradient-to-r from-green-600 to-teal-600 hover:from-green-700 hover:to-teal-700"
                   >
-                    <a href="mailto:hej@ivaerkstedet.dk">{t.joinNetwork}</a>
+                    <a href="mailto:ivaerkstedetfanoe@gmail.com">{t.joinNetwork}</a>
                   </Button>
                 </div>
               </div>
@@ -794,7 +794,7 @@ export default function HomePage() {
                     asChild
                     className="w-full mt-4 bg-gradient-to-r from-green-600 to-teal-600 hover:from-green-700 hover:to-teal-700"
                   >
-                    <a href="mailto:hej@ivaerkstedet.dk">{t.contactUs}</a>
+                    <a href="mailto:ivaerkstedetfanoe@gmail.com">{t.contactUs}</a>
                   </Button>
                 </CardContent>
               </Card>
@@ -857,11 +857,11 @@ export default function HomePage() {
                       asChild
                       className="w-full bg-gradient-to-r from-teal-600 to-green-600 hover:from-teal-700 hover:to-teal-700"
                     >
-                      <a href="mailto:hej@ivaerkstedet.dk">{t.bookTour}</a>
+                      <a href="mailto:ivaerkstedetfanoe@gmail.com">{t.bookTour}</a>
                     </Button>
                     <div className="flex items-center gap-2 text-sm text-gray-600 justify-center">
                       <Mail className="w-4 h-4 text-teal-600 flex-shrink-0" />
-                      <span className="break-all">hej@ivaerkstedet.dk</span>
+                      <span className="break-all">ivaerkstedetfanoe@gmail.com</span>
                     </div>
                   </CardContent>
                 </Card>
