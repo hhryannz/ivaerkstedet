@@ -138,7 +138,7 @@ const translations = {
     flexibleSolutions: "Fleksible løsninger",
     privateOfficeOptions: "• Private kontormuligheder",
     customSolutions: "• Skræddersyede løsninger",
-    sponsors: "Sponsorer",
+    sponsors: "Støtte",
   },
   en: {
     // Header
@@ -265,7 +265,7 @@ const translations = {
     flexibleSolutions: "Flexible solutions",
     privateOfficeOptions: "• Private office options",
     customSolutions: "• Tailored solutions",
-    sponsors: "Sponsors",
+    sponsors: "Support",
   },
   de: {
     // Header
@@ -392,7 +392,7 @@ const translations = {
     flexibleSolutions: "Flexible Lösungen",
     privateOfficeOptions: "• Private Büro Optionen",
     customSolutions: "• Maßgeschneiderte Lösungen",
-    sponsors: "Sponsoren",
+    sponsors: "Unterstützung",
   },
 }
 

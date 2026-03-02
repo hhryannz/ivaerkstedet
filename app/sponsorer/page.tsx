@@ -14,7 +14,7 @@ type Language = "da" | "en" | "de"
 const translations = {
   da: {
     back: "Tilbage til forsiden",
-    title: "Vores sponsorer",
+    title: "Støtte",
     subtitle: "Vi er taknemmelige for den støtte, der gør iVærkstedet muligt",
     lagTitle: "LAG Fanø Varde",
     lagDescription:
@@ -29,11 +29,11 @@ const translations = {
     network: "S\u00f8satterne",
     members: "Medlemmer",
     pricing: "Priser",
-    sponsors: "Sponsorer",
+    sponsors: "Støtte",
   },
   en: {
     back: "Back to homepage",
-    title: "Our sponsors",
+    title: "Support",
     subtitle: "We are grateful for the support that makes iV\u00e6rkstedet possible",
     lagTitle: "LAG Fan\u00f8 Varde",
     lagDescription:
@@ -48,11 +48,11 @@ const translations = {
     network: "Network",
     members: "Members",
     pricing: "Pricing",
-    sponsors: "Sponsors",
+    sponsors: "Support",
   },
   de: {
     back: "Zur\u00fcck zur Startseite",
-    title: "Unsere Sponsoren",
+    title: "Unterstützung",
     subtitle: "Wir sind dankbar f\u00fcr die Unterst\u00fctzung, die iV\u00e6rkstedet m\u00f6glich macht",
     lagTitle: "LAG Fan\u00f8 Varde",
     lagDescription:
@@ -67,7 +67,7 @@ const translations = {
     network: "Netzwerk",
     members: "Mitglieder",
     pricing: "Preise",
-    sponsors: "Sponsoren",
+    sponsors: "Unterstützung",
   },
 }
 
