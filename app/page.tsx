@@ -138,6 +138,7 @@ const translations = {
     flexibleSolutions: "Fleksible løsninger",
     privateOfficeOptions: "• Private kontormuligheder",
     customSolutions: "• Skræddersyede løsninger",
+    sponsors: "Sponsorer",
   },
   en: {
     // Header
@@ -264,6 +265,7 @@ const translations = {
     flexibleSolutions: "Flexible solutions",
     privateOfficeOptions: "• Private office options",
     customSolutions: "• Tailored solutions",
+    sponsors: "Sponsors",
   },
   de: {
     // Header
@@ -390,6 +392,7 @@ const translations = {
     flexibleSolutions: "Flexible Lösungen",
     privateOfficeOptions: "• Private Büro Optionen",
     customSolutions: "• Maßgeschneiderte Lösungen",
+    sponsors: "Sponsoren",
   },
 }
 
@@ -883,6 +886,9 @@ export default function HomePage() {
           </Link>
           <Link href="#" className="text-xs hover:underline underline-offset-4 text-gray-600 hover:text-teal-600">
             {t.contact}
+          </Link>
+          <Link href="/sponsorer" className="text-xs hover:underline underline-offset-4 text-gray-600 hover:text-teal-600">
+            {t.sponsors}
           </Link>
         </nav>
       </footer>
