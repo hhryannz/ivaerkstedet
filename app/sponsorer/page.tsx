@@ -33,7 +33,7 @@ const translations = {
   },
   en: {
     back: "Back to homepage",
-    title: "Support",
+    title: "Sponsors",
     subtitle: "We are grateful for the support that makes iV\u00e6rkstedet possible",
     lagTitle: "LAG Fan\u00f8 Varde",
     lagDescription:
@@ -48,7 +48,7 @@ const translations = {
     network: "Network",
     members: "Members",
     pricing: "Pricing",
-    sponsors: "Support",
+    sponsors: "Sponsors",
   },
   de: {
     back: "Zur\u00fcck zur Startseite",
@@ -101,6 +101,9 @@ export default function SponsorerPage() {
           </Link>
           <Link href="/#pricing" className="text-sm font-medium hover:text-teal-600 transition-colors">
             {t.pricing}
+          </Link>
+          <Link href="/sponsorer" className="text-sm font-medium text-teal-600 font-semibold">
+            {t.sponsors}
           </Link>
           <Link href="/#contact" className="text-sm font-medium hover:text-teal-600 transition-colors">
             {t.contact}
