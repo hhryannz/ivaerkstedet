@@ -138,6 +138,7 @@ const translations = {
     flexibleSolutions: "Fleksible løsninger",
     privateOfficeOptions: "• Private kontormuligheder",
     customSolutions: "• Skræddersyede løsninger",
+    sponsors: "Støtte",
   },
   en: {
     // Header
@@ -264,6 +265,7 @@ const translations = {
     flexibleSolutions: "Flexible solutions",
     privateOfficeOptions: "• Private office options",
     customSolutions: "• Tailored solutions",
+    sponsors: "Sponsors",
   },
   de: {
     // Header
@@ -390,6 +392,7 @@ const translations = {
     flexibleSolutions: "Flexible Lösungen",
     privateOfficeOptions: "• Private Büro Optionen",
     customSolutions: "• Maßgeschneiderte Lösungen",
+    sponsors: "Unterstützung",
   },
 }
 
@@ -421,12 +424,15 @@ export default function HomePage() {
           <Link href="#members" className="text-sm font-medium hover:text-teal-600 transition-colors">
             {t.members}
           </Link>
-          <Link href="#pricing" className="text-sm font-medium hover:text-teal-600 transition-colors">
-            {t.pricing}
-          </Link>
-          <Link href="#contact" className="text-sm font-medium hover:text-teal-600 transition-colors">
-            {t.contact}
-          </Link>
+  <Link href="#pricing" className="text-sm font-medium hover:text-teal-600 transition-colors">
+  {t.pricing}
+  </Link>
+  <Link href="/sponsorer" className="text-sm font-medium hover:text-teal-600 transition-colors">
+  {t.sponsors}
+  </Link>
+  <Link href="#contact" className="text-sm font-medium hover:text-teal-600 transition-colors">
+  {t.contact}
+  </Link>
           <Select value={language} onValueChange={(value: Language) => setLanguage(value)}>
             <SelectTrigger className="w-[100px]">
               <Globe className="w-4 h-4 mr-2" />
@@ -484,10 +490,17 @@ export default function HomePage() {
                   className="text-lg font-medium hover:text-teal-600 transition-colors"
                   onClick={() => setIsOpen(false)}
                 >
-                  {t.pricing}
-                </Link>
-                <Link
-                  href="#contact"
+  {t.pricing}
+  </Link>
+  <Link
+  href="/sponsorer"
+  className="text-lg font-medium hover:text-teal-600 transition-colors"
+  onClick={() => setIsOpen(false)}
+  >
+  {t.sponsors}
+  </Link>
+  <Link
+  href="#contact"
                   className="text-lg font-medium hover:text-teal-600 transition-colors"
                   onClick={() => setIsOpen(false)}
                 >
@@ -883,6 +896,9 @@ export default function HomePage() {
           </Link>
           <Link href="#" className="text-xs hover:underline underline-offset-4 text-gray-600 hover:text-teal-600">
             {t.contact}
+          </Link>
+          <Link href="/sponsorer" className="text-xs hover:underline underline-offset-4 text-gray-600 hover:text-teal-600">
+            {t.sponsors}
           </Link>
         </nav>
       </footer>
