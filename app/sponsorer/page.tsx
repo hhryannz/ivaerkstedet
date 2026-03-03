@@ -15,7 +15,7 @@ const translations = {
   da: {
     back: "Tilbage til forsiden",
     title: "Støtte",
-    subtitle: "Vi er taknemmelige for den støtte, der gør iVærkstedet muligt",
+    subtitle: "Vi er taknemmelige for den støtte, der gør iVÆRKstedet muligt",
     lagTitle: "LAG Fanø Varde",
     lagDescription:
       "iVÆRKstedet Fanø fik i 2025 støtte fra LAG Fanø Varde. Støtten gik til, at vi fik bygget to mutebox\u2019 af en lokal tømrer. I de to mutebox\u2019 kan vores lejere afholde møder eller arbejde fokuseret uforstyrret fra resten af kontoret. Støtten til de to mutebox\u2019 har gjort det endnu mere fleksibelt for vores lejere at tilpasse deres arbejdsdag, så de får den perfekte blanding af socialt fællesskab og mulighed for at arbejde fokuseret.",
@@ -81,8 +81,8 @@ export default function SponsorerPage() {
       {/* Header */}
       <header className="px-4 lg:px-6 h-16 flex items-center border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 sticky top-0 z-50">
         <Link href="/" className="flex items-center justify-center">
-          <Image src="/images/logo.jpg" width={40} height={40} alt="iVærkstedet logo" className="mr-2" />
-          <span className="text-xl font-bold text-gray-900">iVærkstedet</span>
+          <Image src="/images/logo.jpg" width={40} height={40} alt="iVÆRKstedet logo" className="mr-2" />
+          <span className="text-xl font-bold text-gray-900">iVÆRKstedet</span>
         </Link>
 
         {/* Desktop Navigation */}
