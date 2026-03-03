@@ -31,7 +31,7 @@ const translations = {
 
     // About
     aboutTitle: "Arbejd inspireret af naturen",
-    aboutText1: "iVærkstedet er mere end bare et kontor - det er et fællesskab af kreative mennesker.",
+    aboutText1: "iVÆRKstedet er mere end bare et kontor - det er et fællesskab af kreative mennesker.",
     aboutText2:
       "Vores space ligger i Nordby, kun få minutter fra stranden og med nem adgang til færgen. Her kan du nyde ro til koncentration, mens du stadig er en del af et levende professionelt netværk.",
     community: "Fællesskab",
@@ -53,7 +53,7 @@ const translations = {
     networkTitle: "Søsætterne - Vores lokale netværk",
     networkSubtitle: "Et fællesskab for alle iværksættere på Fanø",
     networkDescription1:
-      "Søsætterne er vores åbne netværk for alle iværksættere og kreative mennesker på Fanø - uanset om du er medlem af iVærkstedet eller ej.",
+      "Søsætterne er vores åbne netværk for alle iværksættere og kreative mennesker på Fanø - uanset om du er medlem af iVÆRKstedet eller ej.",
     networkDescription2:
       "Vi mødes regelmæssigt til networking events, workshops og sociale sammenkomster. Det er det perfekte sted at møde ligesindede, dele erfaringer og skabe nye samarbejder på øen.",
     monthlyMeetings: "Regelmæssige møder",
@@ -69,7 +69,7 @@ const translations = {
 
     // Gallery
     galleryTitle: "Se vores inspirerende arbejdsmiljø",
-    gallerySubtitle: "Få et indblik i hverdagen på iVærkstedet",
+    gallerySubtitle: "Få et indblik i hverdagen på iVÆRKstedet",
 
     // Pricing
     pricingTitle: "Priser der passer til dit behov",
@@ -117,22 +117,22 @@ const translations = {
     bookTour: "Book gratis rundvisning",
 
     // Footer
-    copyright: "© 2024 iVærkstedet. Alle rettigheder forbeholdes.",
+    copyright: "© 2024 iVÆRKstedet. Alle rettigheder forbeholdes.",
     privacy: "Privatlivspolitik",
     terms: "Handelsbetingelser",
 
     // Alt texts
-    workspaceAlt: "iVærkstedet grønt arbejdsområde med planter",
-    mainWorkspaceAlt: "iVærkstedet hovedarbejdsområde med neon skilt",
+    workspaceAlt: "iVÆRKstedet grønt arbejdsområde med planter",
+    mainWorkspaceAlt: "iVÆRKstedet hovedarbejdsområde med neon skilt",
     landscapeAlt: "Fanø landskab med klitter og strand",
     modernWorkplaceAlt: "Moderne arbejdsplads med naturligt lys",
     loungeAlt: "Hyggelig lounge område med hund",
     meetingRoomAlt: "Mødelokale med moderne faciliteter",
-    memberPhotosAlt: "Væg med billeder af iVærkstedets medlemmer",
-    communityAlt: "Fællesskabsøjeblik på iVærkstedet",
+    memberPhotosAlt: "Væg med billeder af iVÆRKstedets medlemmer",
+    communityAlt: "Fællesskabsøjeblik på iVÆRKstedet",
     outdoorNetworkingAlt: "Udendørs networking på Fanø",
     ferryAlt: "Fanølinjen færge til Fanø",
-    kitchenAlt: "Køkken og spiseplads på iVærkstedet",
+    kitchenAlt: "Køkken og spiseplads på iVÆRKstedet",
 
     contactForPricing: "Kontakt os for priser",
     flexibleSolutions: "Fleksible løsninger",
@@ -158,7 +158,7 @@ const translations = {
 
     // About
     aboutTitle: "Work inspired by nature",
-    aboutText1: "iVærkstedet is more than just an office - it's a community of creative people.",
+    aboutText1: "iVÆRKstedet is more than just an office - it's a community of creative people.",
     aboutText2:
       "Our space is located in Nordby, just minutes from the beach and with easy access to the ferry. Here you can enjoy peace and focus while still being connected to a vibrant professional network.",
     community: "Community",
@@ -180,7 +180,7 @@ const translations = {
     networkTitle: "Our Local Network - Søsætterne",
     networkSubtitle: "A community for all professionals on Fanø",
     networkDescription1:
-      "Søsætterne is our open network for all professionals and creative minds on Fanø - whether you're a member of iVærkstedet or not.",
+      "Søsætterne is our open network for all professionals and creative minds on Fanø - whether you're a member of iVÆRKstedet or not.",
     networkDescription2:
       "We meet regularly for networking events, workshops and social gatherings. It's the perfect place to meet like-minded people, share experiences and create new connections on the island.",
     monthlyMeetings: "Regular meetings",
@@ -196,7 +196,7 @@ const translations = {
 
     // Gallery
     galleryTitle: "See our inspiring work environment",
-    gallerySubtitle: "Get a glimpse into daily life at iVærkstedet",
+    gallerySubtitle: "Get a glimpse into daily life at iVÆRKstedet",
 
     // Pricing
     pricingTitle: "Prices that fit your needs",
@@ -244,22 +244,22 @@ const translations = {
     bookTour: "Book free tour",
 
     // Footer
-    copyright: "© 2024 iVærkstedet. All rights reserved.",
+    copyright: "© 2024 iVÆRKstedet. All rights reserved.",
     privacy: "Privacy Policy",
     terms: "Terms of Service",
 
     // Alt texts
-    workspaceAlt: "iVærkstedet green workspace with plants",
-    mainWorkspaceAlt: "iVærkstedet main workspace with neon sign",
+    workspaceAlt: "iVÆRKstedet green workspace with plants",
+    mainWorkspaceAlt: "iVÆRKstedet main workspace with neon sign",
     landscapeAlt: "Fanø landscape with dunes and beach",
     modernWorkplaceAlt: "Modern workplace with natural light",
     loungeAlt: "Cozy lounge area with dog",
     meetingRoomAlt: "Meeting room with modern facilities",
-    memberPhotosAlt: "Wall with photos of iVærkstedet members",
-    communityAlt: "Community moment at iVærkstedet",
+    memberPhotosAlt: "Wall with photos of iVÆRKstedet members",
+    communityAlt: "Community moment at iVÆRKstedet",
     outdoorNetworkingAlt: "Outdoor networking on Fanø",
     ferryAlt: "Fanølinjen ferry to Fanø",
-    kitchenAlt: "Kitchen and dining area at iVærkstedet",
+    kitchenAlt: "Kitchen and dining area at iVÆRKstedet",
 
     contactForPricing: "Contact us for pricing",
     flexibleSolutions: "Flexible solutions",
@@ -285,7 +285,7 @@ const translations = {
 
     // About
     aboutTitle: "Arbeiten inspiriert von der Natur",
-    aboutText1: "iVærkstedet ist mehr als nur ein Büro - es ist eine Gemeinschaft kreativer Menschen.",
+    aboutText1: "iVÆRKstedet ist mehr als nur ein Büro - es ist eine Gemeinschaft kreativer Menschen.",
     aboutText2:
       "Unser Space liegt in Nordby, nur wenige Minuten vom Strand entfernt und mit einfachem Zugang zur Fähre. Hier kannst du Ruhe und Konzentration genießen und bist dennoch mit einem lebendigen professionellen Netzwerk verbunden.",
     community: "Gemeinschaft",
@@ -307,7 +307,7 @@ const translations = {
     networkTitle: "Unser lokales Netzwerk - Søsætterne",
     networkSubtitle: "Eine Gemeinschaft für alle Unternehmer auf Fanø",
     networkDescription1:
-      "Søsætterne ist unser offenes Netzwerk für alle Unternehmer und kreativen Köpfe auf Fanø - egal ob Sie Mitglied von iVærkstedet sind oder nicht.",
+      "Søsætterne ist unser offenes Netzwerk für alle Unternehmer und kreativen Köpfe auf Fanø - egal ob Sie Mitglied von iVÆRKstedet sind oder nicht.",
     networkDescription2:
       "Wir treffen uns regelmäßig zu Networking-Events, Workshops und geselligen Zusammenkünften. Es ist der perfekte Ort, um Gleichgesinnte zu treffen, Erfahrungen zu teilen und neue Kooperationen auf der Insel zu schaffen.",
     monthlyMeetings: "Regelmässige Treffen",
@@ -323,7 +323,7 @@ const translations = {
 
     // Gallery
     galleryTitle: "Unsere inspirierende Arbeitsumgebung",
-    gallerySubtitle: "Einen Einblick in den Alltag bei iVærkstedet",
+    gallerySubtitle: "Einen Einblick in den Alltag bei iVÆRKstedet",
 
     // Pricing
     pricingTitle: "Preise die zu deinen Bedürfnissen passen",
@@ -371,22 +371,22 @@ const translations = {
     bookTour: "Kostenlose Führung buchen",
 
     // Footer
-    copyright: "© 2024 iVærkstedet. Alle Rechte vorbehalten.",
+    copyright: "© 2024 iVÆRKstedet. Alle Rechte vorbehalten.",
     privacy: "Datenschutzrichtlinie",
     terms: "Nutzungsbedingungen",
 
     // Alt texts
-    workspaceAlt: "iVærkstedet grüner Arbeitsbereich mit Pflanzen",
-    mainWorkspaceAlt: "iVærkstedet Hauptarbeitsbereich mit Neonschild",
+    workspaceAlt: "iVÆRKstedet grüner Arbeitsbereich mit Pflanzen",
+    mainWorkspaceAlt: "iVÆRKstedet Hauptarbeitsbereich mit Neonschild",
     landscapeAlt: "Fanø Landschaft mit Dünen und Strand",
     modernWorkplaceAlt: "Moderner Arbeitsplatz mit natürlichem Licht",
     loungeAlt: "Gemütlicher Lounge-Bereich mit Hund",
     meetingRoomAlt: "Besprechungsraum mit moderner Ausstattung",
-    memberPhotosAlt: "Wand mit Fotos der iVærkstedet-Mitglieder",
+    memberPhotosAlt: "Wand mit Fotos der iVÆRKstedet-Mitglieder",
     communityAlt: "Gemeinschaftsmoment bei iVærkstedet",
     outdoorNetworkingAlt: "Outdoor-Networking auf Fanø",
     ferryAlt: "Fanølinjen Fähre nach Fanø",
-    kitchenAlt: "Küche und Essbereich bei iVærkstedet",
+    kitchenAlt: "Küche und Essbereich bei iVÆRKstedet",
 
     contactForPricing: "Kontaktieren Sie uns für Preise",
     flexibleSolutions: "Flexible Lösungen",
@@ -407,7 +407,7 @@ export default function HomePage() {
       <header className="px-4 lg:px-6 h-16 flex items-center border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 sticky top-0 z-50">
         <Link href="/" className="flex items-center justify-center">
           <Image src="/images/logo.jpg" width={40} height={40} alt="iVærkstedet logo" className="mr-2" />
-          <span className="text-xl font-bold text-gray-900">iVærkstedet</span>
+          <span className="text-xl font-bold text-gray-900">iVÆRKstedet</span>
         </Link>
 
         {/* Desktop Navigation */}
