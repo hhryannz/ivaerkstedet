@@ -7,7 +7,7 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "iVærkstedet - Co-working på Fanø",
+  title: "iVÆRKstedet - Co-working på Fanø",
   description: "Dit kreative arbejdsrum ved Vadehavet. Moderne co-working faciliteter på den smukke ø Fanø.",
   generator: "v0.app",
 }
