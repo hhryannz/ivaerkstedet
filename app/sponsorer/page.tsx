@@ -19,6 +19,9 @@ const translations = {
     lagTitle: "LAG Fanø Varde",
     lagDescription:
       "iVÆRKstedet Fanø fik i 2025 støtte fra LAG Fanø Varde. Støtten gik til, at vi fik bygget to mutebox\u2019 af en lokal tømrer. I de to mutebox\u2019 kan vores lejere afholde møder eller arbejde fokuseret uforstyrret fra resten af kontoret. Støtten til de to mutebox\u2019 har gjort det endnu mere fleksibelt for vores lejere at tilpasse deres arbejdsdag, så de får den perfekte blanding af socialt fællesskab og mulighed for at arbejde fokuseret.",
+    fondTitle: "Fanø Sparekasses Fond",
+    fondDescription:
+      "Den lokale fond har ad to omgange valgt at støtte vores kontorfællesskab og iværksætterhus. Deres støtte var en kæmpe hjælp især i opbygningsfasen af kontoret, hvor de bl.a. gav støtte til inventar som kontorstole, kontorborde og andre kontorartikler.",
     euFunded: "Finansieret af Den Europiske Union",
     copyright: "\u00a9 2024 iV\u00e6rkstedet. Alle rettigheder forbeholdes.",
     privacy: "Privatlivspolitik",
@@ -38,6 +41,9 @@ const translations = {
     lagTitle: "LAG Fan\u00f8 Varde",
     lagDescription:
       "iV\u00c6RKstedet Fan\u00f8 received funding from LAG Fan\u00f8 Varde in 2025. The support went towards building two mutebox units by a local carpenter. In the two mutebox units, our tenants can hold meetings or work focused without being disturbed by the rest of the office. The funding for the two mutebox units has made it even more flexible for our tenants to adapt their workday, giving them the perfect mix of social community and the ability to work with focus.",
+    fondTitle: "Fanø Sparekasses Fond",
+    fondDescription:
+      "The local foundation has chosen to support our office community and startup hub on two occasions. Their support was hugely helpful especially in the building phase of the office, where they provided support for furniture such as office chairs, office desks and other office articles.",
     euFunded: "Funded by the European Union",
     copyright: "\u00a9 2024 iV\u00e6rkstedet. All rights reserved.",
     privacy: "Privacy Policy",
@@ -57,6 +63,9 @@ const translations = {
     lagTitle: "LAG Fan\u00f8 Varde",
     lagDescription:
       "iV\u00c6RKstedet Fan\u00f8 erhielt 2025 F\u00f6rdermittel von LAG Fan\u00f8 Varde. Die Unterst\u00fctzung floss in den Bau von zwei Mutebox-Einheiten durch einen lokalen Tischler. In den beiden Mutebox-Einheiten k\u00f6nnen unsere Mieter Besprechungen abhalten oder konzentriert arbeiten, ohne vom Rest des B\u00fcros gest\u00f6rt zu werden. Die F\u00f6rderung der beiden Mutebox-Einheiten hat es unseren Mietern noch flexibler gemacht, ihren Arbeitstag anzupassen \u2013 f\u00fcr die perfekte Mischung aus sozialer Gemeinschaft und konzentriertem Arbeiten.",
+    fondTitle: "Fanø Sparekasses Fond",
+    fondDescription:
+      "Die lokale Stiftung hat sich zweimal dafür entschieden, unsere Bürogemeinschaft und unser Start-up-Haus zu unterstützen. Ihre Unterstützung war besonders in der Aufbauphase des Büros eine große Hilfe, wo sie Möbel wie Bürostühle, Schreibtische und andere Büroartikel bereitstellte.",
     euFunded: "Finanziert von der Europ\u00e4ischen Union",
     copyright: "\u00a9 2024 iV\u00e6rkstedet. Alle Rechte vorbehalten.",
     privacy: "Datenschutzrichtlinie",
@@ -221,7 +230,7 @@ export default function SponsorerPage() {
         </section>
 
         {/* LAG Fanø Varde Sponsor */}
-        <section className="w-full pb-12 md:pb-16 lg:pb-24">
+        <section className="w-full pb-12 md:pb-16">
           <div className="container px-4 md:px-6 mx-auto max-w-4xl">
             <Card className="border-teal-100 overflow-hidden">
               <CardContent className="p-6 md:p-10">
@@ -253,6 +262,31 @@ export default function SponsorerPage() {
                     />
                   </div>
                 </div>
+              </CardContent>
+            </Card>
+          </div>
+        </section>
+
+        {/* Fanø Sparekasses Fond Sponsor */}
+        <section className="w-full pb-12 md:pb-16 lg:pb-24">
+          <div className="container px-4 md:px-6 mx-auto max-w-4xl">
+            <Card className="border-teal-100 overflow-hidden">
+              <CardContent className="p-6 md:p-10">
+                <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10 mb-8">
+                  <Image
+                    src="/images/fano-sparekasses-fond-logo.jpeg"
+                    width={250}
+                    height={100}
+                    alt="Fanø Sparekasses Fond logo"
+                    className="object-contain"
+                  />
+                </div>
+
+                <h2 className="text-xl font-bold md:text-2xl mb-4">{t.fondTitle}</h2>
+
+                <p className="text-gray-700 text-base md:text-lg leading-relaxed">
+                  {t.fondDescription}
+                </p>
               </CardContent>
             </Card>
           </div>
