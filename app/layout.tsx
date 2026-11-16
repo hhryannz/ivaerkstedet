@@ -10,6 +10,11 @@ export const metadata: Metadata = {
   title: "iVÆRKstedet - Co-working på Fanø",
   description: "Dit kreative arbejdsrum ved Vadehavet. Moderne co-working faciliteter på den smukke ø Fanø.",
   generator: "v0.app",
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/images/logo.jpg",
+  },
 }
 
 export default function RootLayout({
