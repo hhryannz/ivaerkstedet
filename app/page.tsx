@@ -841,7 +841,8 @@ export default function HomePage() {
               </div>
               <div className="space-y-6">
                 <div className="rounded-xl h-64 sm:h-80 lg:h-64 overflow-hidden ring-1 ring-teal-200/50">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d370.69026858870035!2d8.401757338897244!3d55.4438840902156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464b276bc8a12019%3A0xaa64aca0f7a04088!2sHovedgaden%2078%2C%206720%20Nordby!5e0!3m2!1sen!2sdk!4v1794820979482!5m2!1sen!2sdk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d370.69026858870035!2d8.401757338897244!3d55.4438840902156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464b276bc8a12019%3A0xaa64aca0f7a04088!2sHovedgaden%2078%2C%206720%20Nordby!5e0!3m2!1sen!2sdk!4v1794820979482!5m2!1sen!2sdk"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
