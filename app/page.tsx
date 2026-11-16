@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import { MapPin, Wifi, Coffee, Users, Calendar, Mail, Clock, Globe, Heart, Menu } from "lucide-react"
+import { MapPin, Wifi, Coffee, Users, Calendar, Mail, Globe, Heart, Menu } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
@@ -831,14 +831,6 @@ export default function HomePage() {
                       <p className="font-medium">{t.address}</p>
                       <p className="text-gray-600 text-sm md:text-base">Hovedgaden 78, 6720 Nordby</p>
                       <p className="text-gray-600 text-sm md:text-base">Fanø, Danmark</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <Clock className="w-5 h-5 text-teal-600 mt-1 flex-shrink-0" />
-                    <div>
-                      <p className="font-medium">{t.openingHours}</p>
-                      <p className="text-gray-600 text-sm md:text-base">{t.mondayFriday}</p>
-                      <p className="text-gray-600 text-sm md:text-base">{t.weekend}</p>
                     </div>
                   </div>
                 </div>
